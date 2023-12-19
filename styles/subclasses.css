@@ -10,37 +10,45 @@ body
 
 .container
 {
-    display: flex;
-    justify-content: center;
-}
-
-.container div
-{
-    float: left;
-    margin: 10px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 10px 10px;
+  justify-content: center;
+  float: left;
 }
 
 #navi
 {
-    position: fixed;
-    left: 0;
-    width: 20%;
+  position: fixed;
+  left: 0;
+  width: 20%;
+  display: block;
+}
+
+.options
+{
+  font-family: Patrick Hand;
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+  float: left;
+  white-space: normal;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px;
+  border: none;
+  cursor: pointer;
 }
 
 #pagetitle
 {
-    width: 75%;
-    height: 15%;
-    margin: 10px;
-    float: right;
-    white-space: normal;
-    text-align: center;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 10px 10px;
+  width: 75%;
+  height: 15%;
+  margin: 10px;
+  float: right;
+  white-space: normal;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px;
 }
 
 #content
