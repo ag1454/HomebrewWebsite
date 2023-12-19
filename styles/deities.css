@@ -14,28 +14,41 @@ body
     justify-content: center;
 }
 
-.container div
+.options
 {
-    float: left;
-    margin: 10px;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 10px 10px;
+  font-family: Patrick Hand;
+  margin: 10px;
+  width: 100%;
+  height: 50px;
+  float: left;
+  white-space: normal;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 10px 10px;
+  border: none;
+  cursor: pointer;
 }
 
 #navi
 {
-    position: fixed;
-    left: 0;
-    width: 20%;
+  position: fixed;
+  left: 0;
+  width: 20%;
+  display: block;
 }
 
 #navi2
 {
     position: fixed;
     left: 0;
-    bottom: 20%;
+    bottom: 5%;
     width: 20%;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 10px;
 }
 
 #pagetitle
@@ -90,23 +103,23 @@ ul
   text-decoration: none;
 }
 
-li .options
+li .doptions
 {
   display: block;
   padding: 10px;
 }
 
-.options:link
+.doptions:link
 {
   text-decoration: none;
 }
 
-li .options.active
+li .doptions.active
 {
   color: hotpink;
 }
 
-li .options:hover:not(.active)
+li .doptions:hover:not(.active)
 {
   color: hotpink;
 }
